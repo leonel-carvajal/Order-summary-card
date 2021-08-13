@@ -24,6 +24,14 @@ body{
 	background-color: var(--Very-pale-blue);
 	overflow-y: hidden;
 }
+@media screen and (min-width:768px) {
+	.card{
+		width: 50%;
+	}
+	body{
+		height: 100vh;
+	}
+}
 @media screen and (min-width:1024px) {
 	body{
 		height: 100vh;
@@ -32,7 +40,7 @@ body{
 		background-position: 0 -30%;
 	}
 	.card{
-		width: 25%;
+		width: 30%;
 	}
 }
 
@@ -100,6 +108,9 @@ body{
 
 .button--transparent{
 	color: var(--Desaturated-blue);
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @media screen and (min-width:1024px) {
